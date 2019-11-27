@@ -230,7 +230,7 @@ class MnliProcessor(DataProcessor):
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
         return examples
 
-class MnliProcessor(DataProcessor):
+class DnliProcessor(DataProcessor):
     """Processor for the MultiNLI data set (GLUE version)."""
 
     def get_example_from_tensor_dict(self, tensor_dict):
